@@ -4,7 +4,7 @@ name: Install test
 # computes the same URL and hash for the current version.
 on:
   push:
-    branches: [main]
+    branches: [main, master]
   pull_request:
   workflow_dispatch:
 
